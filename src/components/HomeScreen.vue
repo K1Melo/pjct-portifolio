@@ -175,7 +175,7 @@ export default {
         z-index: -1;
 
         img {
-            opacity: 30%;
+            opacity: 20%;
             width: 100%;
         }
     }

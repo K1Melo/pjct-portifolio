@@ -1,14 +1,17 @@
 <template>
   <HomeScreen></HomeScreen>
+  <HeaderComp></HeaderComp>
 </template>
 
 <script>
 import HomeScreen from './components/HomeScreen.vue'
+import HeaderComp from './components/HeaderComp.vue'
 
 export default {
   name: 'App',
   components: {
-    HomeScreen
+    HomeScreen,
+    HeaderComp
   }
 }
 </script>
