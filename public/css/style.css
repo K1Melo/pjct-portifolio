@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+
+    /* BACKGROUND AND ANIMATION */
+  
+    min-height: 100vh;
+    background-size: 600% 600%;
+    background-image: linear-gradient(60deg, #0a0a0a -80.88%, #111111 100%);
+    animation: bgAnimatedGradient 15s infinite linear;
+  
+    min-height: 100vh;
+    width: 100%;
+}
+
+@keyframes bgAnimatedGradient {
+    0% {
+      background-position: 0 85%;
+    }
+  
+    50% {
+      background-position: 100% 20%;
+    }
+  
+    100% {
+      background-position: 0% 85%;
+    }
+  }
+  
