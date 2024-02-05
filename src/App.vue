@@ -2,19 +2,22 @@
   <HomeScreen></HomeScreen>
   <HeaderComp></HeaderComp>
   <AboutMe></AboutMe>
+  <MyProjects></MyProjects>
 </template>
 
 <script>
 import HomeScreen from './components/HomeScreen.vue'
 import HeaderComp from './components/HeaderComp.vue'
 import AboutMe from './components/AboutMe.vue'
+import MyProjects from './components/MyProjects.vue'
 
 export default {
   name: 'App',
   components: {
     HomeScreen,
     HeaderComp,
-    AboutMe
+    AboutMe,
+    MyProjects
   }
 }
 </script>

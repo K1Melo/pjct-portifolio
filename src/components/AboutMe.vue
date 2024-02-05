@@ -59,7 +59,7 @@
             </div>
         </div>
         <div class="img">
-            <img src="../assets/img-abt.png" alt="">
+            <img src="../assets/img-abt.svg" alt="">
         </div>
     </div>
 </template>
@@ -136,10 +136,12 @@
 }
 
 .img {
+    user-select: none;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 50%;
+    margin: 5% 0;
 
     img {
         width: 80%;
@@ -248,10 +250,11 @@
     }
 
     .img {
-        width: 100%;
+        margin: 5% 0 10% 0;
+        width: 85%;
 
         img {
-            width: 80%;
+            width: 100%;
         }
     }
 }

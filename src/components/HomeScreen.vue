@@ -20,7 +20,7 @@
                 </div>
             </div>
         </div>
-        <div class="kotlin-cell">
+        <div class="kotlin-cell" style="user-select: none;">
             <img src="../assets/kotlinCell.png" alt="">
         </div>
     </div>
@@ -59,7 +59,7 @@ export default {
 
     img {
         width: 70%;
-        opacity: 30%;
+        opacity: 100%;
     }
 }
 
@@ -93,6 +93,8 @@ export default {
                 cursor: pointer;
                 border-radius: 2px;
                 user-select: none;
+                display: flex;
+                align-items: center;
 
                 transition: all .6s ease-out;
 
@@ -102,6 +104,7 @@ export default {
                 padding: 5px 15px;
 
                 p {
+                    width: fit-content;
                     display: flex;
                     align-items: center;
                     justify-content: center;
