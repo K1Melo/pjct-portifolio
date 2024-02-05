@@ -105,6 +105,7 @@ export default {
                     display: flex;
                     align-items: center;
                     justify-content: center;
+                    font-size: 18px;
 
                     .material-symbols-outlined {
                         margin: 0 0 0 5px;
@@ -152,14 +153,13 @@ export default {
     }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 912px) {
 
     .home {
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        height: 100vh;
     }
 
     .kotlin {

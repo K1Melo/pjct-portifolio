@@ -1,14 +1,11 @@
 <template>
     <header id="header">
-        <p class="theme">About me</p>
-        <p class="theme">Projects</p>
-        <p class="theme">Certificates</p>
-        <p class="theme">Studies</p>
-        <p class="theme">Contact</p>
+        <p id="abt" class="theme">About me</p>
+        <p id="pjct" class="theme">Projects</p>
+        <p id="ctf" class="theme">Certificates</p>
+        <p id="std" class="theme">Studies</p>
+        <p id="ctt" class="theme">Contact</p>
     </header>
-    <div class="id">
-
-    </div>
 </template>
 
 <script>
@@ -37,7 +34,12 @@ header {
     transition: opacity 0.3s ease-in-out;
 }
 
-.id {
-    height: 100vh;
+.theme {
+    color: #BDBDBD;
 }
+
+#abt, #pjct, #ctf, #std, #ctt {
+    transition: color 0.3s ease-in;
+}
+
 </style>

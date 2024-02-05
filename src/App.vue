@@ -1,17 +1,20 @@
 <template>
   <HomeScreen></HomeScreen>
   <HeaderComp></HeaderComp>
+  <AboutMe></AboutMe>
 </template>
 
 <script>
 import HomeScreen from './components/HomeScreen.vue'
 import HeaderComp from './components/HeaderComp.vue'
+import AboutMe from './components/AboutMe.vue'
 
 export default {
   name: 'App',
   components: {
     HomeScreen,
-    HeaderComp
+    HeaderComp,
+    AboutMe
   }
 }
 </script>
