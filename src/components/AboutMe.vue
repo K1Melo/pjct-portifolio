@@ -59,7 +59,7 @@
             </div>
         </div>
         <div class="img">
-            <img src="https://pics.craiyon.com/2023-07-25/eafc53389dff4b1b9e055f5ae647e0f9.webp" alt="">
+            <img src="../assets/img-abt.png" alt="">
         </div>
     </div>
 </template>
@@ -129,7 +129,7 @@
     }
 
     p {
-        width: 90%;
+        width: 85%;
         font-size: 23px;
         font-weight: 300;
     }
