@@ -3,6 +3,7 @@
   <HeaderComp></HeaderComp>
   <AboutMe></AboutMe>
   <MyProjects></MyProjects>
+  <MyCertificates></MyCertificates>
 </template>
 
 <script>
@@ -10,6 +11,7 @@ import HomeScreen from './components/HomeScreen.vue'
 import HeaderComp from './components/HeaderComp.vue'
 import AboutMe from './components/AboutMe.vue'
 import MyProjects from './components/MyProjects.vue'
+import MyCertificates from './components/MyCertificates.vue'
 
 export default {
   name: 'App',
@@ -17,7 +19,8 @@ export default {
     HomeScreen,
     HeaderComp,
     AboutMe,
-    MyProjects
+    MyProjects,
+    MyCertificates
   }
 }
 </script>
