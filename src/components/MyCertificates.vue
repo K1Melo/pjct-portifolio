@@ -87,6 +87,7 @@ import { EffectCards, Pagination } from 'swiper/modules';
     transition: all 1s ease-in-out;
 
     img {
+        border-radius: 10px;
         width: 80%;
     }
 }

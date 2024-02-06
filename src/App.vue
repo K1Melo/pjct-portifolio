@@ -4,6 +4,7 @@
   <AboutMe></AboutMe>
   <MyProjects></MyProjects>
   <MyCertificates></MyCertificates>
+  <MyStudies></MyStudies>
 </template>
 
 <script>
@@ -12,6 +13,7 @@ import HeaderComp from './components/HeaderComp.vue'
 import AboutMe from './components/AboutMe.vue'
 import MyProjects from './components/MyProjects.vue'
 import MyCertificates from './components/MyCertificates.vue'
+import MyStudies from './components/MyStudies.vue'
 
 export default {
   name: 'App',
@@ -20,7 +22,8 @@ export default {
     HeaderComp,
     AboutMe,
     MyProjects,
-    MyCertificates
+    MyCertificates,
+    MyStudies
   }
 }
 </script>
