@@ -9,7 +9,7 @@
 
             <div class="text-pjct">
                 <div class="container">
-                    <h4>Armorfly</h4>
+                    <h4>Armorfly <img src="../assets/github.svg" @click="open('https://github.com/K1Melo')"/></h4>
                     <p>Not just a developer but a lover of software development, I started my career when I was just 14y and
                         currently I have built some of my own projects, mainly using Java and Kotlin with
                         Spring/Spring Boot framework for APIs and libGDX for game development</p>
@@ -25,7 +25,7 @@
         <div class="project" id="reverse">
             <div class="text-pjct">
                 <div class="container">
-                    <h4>Armorfly</h4>
+                    <h4>Armorfly <img src="../assets/github.svg" @click="open('https://github.com/K1Melo')"/></h4>
                     <p>Not just a developer but a lover of software development, I started my career when I was just 14y and
                         currently I have built some of my own projects, mainly using Java and Kotlin with
                         Spring/Spring Boot framework for APIs and libGDX for game development</p>
@@ -48,7 +48,7 @@
 
             <div class="text-pjct">
                 <div class="container">
-                    <h4>Armorfly</h4>
+                    <h4>Armorfly <img src="../assets/github.svg" @click="open('https://github.com/K1Melo')"/></h4>
                     <p>Not just a developer but a lover of software development, I started my career when I was just 14y and
                         currently I have built some of my own projects, mainly using Java and Kotlin with
                         Spring/Spring Boot framework for APIs and libGDX for game development</p>
@@ -96,7 +96,7 @@ export default {
     display: flex;
     justify-content: right;
     color: #8D8D8D;
-    
+
     span {
         transition: color 0.2s linear;
     }
@@ -127,9 +127,26 @@ export default {
         justify-content: center;
 
         h4 {
+            display: flex;
+            align-items: center;
             font-size: 50px;
             font-weight: 300;
             margin: 0 0 5% 0;
+
+            img {
+                margin-left: 3%;
+                width: 9%;
+                cursor: pointer;
+                transition: all 0.2s linear;
+            }
+            img:hover {
+                opacity: 0.8;
+                transform: scale(1.1);
+            }
+            img:active {
+                opacity: 0.5;
+                transform: scale(0.9);
+            }
         }
 
         p {
@@ -224,7 +241,13 @@ export default {
             text-align: center;
 
             h4 {
+                justify-content: center;
                 font-size: 42px;
+
+                img {
+                    margin-left: 3%;
+                    width: 11%;
+                }
             }
 
             p {

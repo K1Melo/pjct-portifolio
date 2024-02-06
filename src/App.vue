@@ -6,6 +6,7 @@
   <MyCertificates></MyCertificates>
   <MyStudies></MyStudies>
   <MyContacts></MyContacts>
+  <FooterComp></FooterComp>
 </template>
 
 <script>
@@ -16,6 +17,7 @@ import MyProjects from './components/MyProjects.vue'
 import MyCertificates from './components/MyCertificates.vue'
 import MyStudies from './components/MyStudies.vue'
 import MyContacts from './components/MyContacts.vue'
+import FooterComp from './components/FooterComp.vue'
 
 export default {
   name: 'App',
@@ -26,7 +28,8 @@ export default {
     MyProjects,
     MyCertificates,
     MyStudies,
-    MyContacts
+    MyContacts,
+    FooterComp
   }
 }
 </script>

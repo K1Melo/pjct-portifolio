@@ -33,6 +33,7 @@
     position: relative;
     width: 100%;
     height: 100vh;
+    overflow: hidden;
 }
 
 .contact-page:after {
@@ -108,6 +109,8 @@
 
 .area {
     min-height: 30vh;
+    font-size: 1.2rem;
+
 }
 
 @media screen and (max-width: 912px) {
