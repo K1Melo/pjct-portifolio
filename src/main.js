@@ -18,16 +18,3 @@ window.addEventListener("scroll", () => {
     if (window.scrollY > (window.innerHeight * 6.5)) { contact.style.color = "#7B88FF"; studies.style.color = "#BDBDBD" } else { contact.style.color = "#BDBDBD"; }
 
 })
-
-const header = document.querySelector("header")
-
-
-window.addEventListener('wheel', (event => {
-    event.preventDefault();
-
-    if (window.scrollY > (window.innerHeight)) {
-        header.scrollBy({
-            left: event.deltaY < 0 ? -5 : 5,
-        })
-    }
-}))

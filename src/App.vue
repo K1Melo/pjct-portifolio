@@ -5,6 +5,7 @@
   <MyProjects></MyProjects>
   <MyCertificates></MyCertificates>
   <MyStudies></MyStudies>
+  <MyContacts></MyContacts>
 </template>
 
 <script>
@@ -14,6 +15,7 @@ import AboutMe from './components/AboutMe.vue'
 import MyProjects from './components/MyProjects.vue'
 import MyCertificates from './components/MyCertificates.vue'
 import MyStudies from './components/MyStudies.vue'
+import MyContacts from './components/MyContacts.vue'
 
 export default {
   name: 'App',
@@ -23,7 +25,8 @@ export default {
     AboutMe,
     MyProjects,
     MyCertificates,
-    MyStudies
+    MyStudies,
+    MyContacts
   }
 }
 </script>

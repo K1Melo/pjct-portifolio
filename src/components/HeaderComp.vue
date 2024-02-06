@@ -50,7 +50,7 @@ header {
 @media only screen and (max-width: 650px) {
     header {
         justify-content: start;
-        overflow: scroll;
+        overflow-x: scroll;
     }
 
     .theme {

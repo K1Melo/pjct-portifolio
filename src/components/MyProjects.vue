@@ -141,7 +141,7 @@ export default {
         .technologies {
             display: flex;
             align-items: center;
-            justify-content: start;
+            justify-content: flex-start;
 
             .tec {
                 width: fit-content;
