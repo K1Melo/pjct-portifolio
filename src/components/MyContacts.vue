@@ -6,9 +6,20 @@
                 <h3 style="color: #7C61E8; font-weight: 100; text-align: center;"><span style="color: #FFFFFF; ">04</span>
                     Contact me</h3>
                 <input type="text" class="field" placeholder="Your Name">
-                <input type="email" class="field" placeholder="example@gmail.com">
-                <input type="text" class="field" placeholder="(XX) XXXXX-XXXX">
                 <textarea class="field area" placeholder="Message"></textarea>
+                <button type="submit" class="btn">
+                    <div class="svg-wrapper-1">
+                        <div class="svg-wrapper">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                <path fill="none" d="M0 0h24v24H0z"></path>
+                                <path fill="currentColor"
+                                    d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                    <span>Enviar</span>
+                </button>
             </div>
         </div>
     </div>
@@ -20,7 +31,6 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    padding: 20px 100px;
     width: 100%;
     height: 100vh;
 }
@@ -34,6 +44,7 @@
     height: 100%;
     background: url("https://images7.alphacoders.com/133/1337527.png") no-repeat center;
     background-size: cover;
+    background-attachment: fixed;
     z-index: -1;
     filter: blur(25px);
 
@@ -99,13 +110,82 @@
     min-height: 30vh;
 }
 
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 912px) {
     .contact-box {
         grid-template-columns: 1fr;
     }
 
     .left-ctt {
         display: none;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .contact-box {
+        width: 90%;
+        height: 70%;
+    }
+
+    .right-ctt {
+        width: 100%;
+
+    }
+}
+
+button {
+    width: 100%;
+    font-family: inherit;
+    font-size: 20px;
+    background-color: rgb(21, 21, 21);
+    color: rgb(255, 255, 255);
+    padding: 0.7em 1em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 16px;
+    overflow: hidden;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+button span {
+    display: block;
+    margin-left: 0.3em;
+    transition: all 0.3s ease-in-out;
+}
+
+button svg {
+    display: block;
+    transform-origin: center center;
+    transition: transform 0.3s ease-in-out;
+}
+
+button:hover .svg-wrapper {
+    animation: fly-1 0.8s ease-in-out infinite alternate;
+}
+
+button:hover svg {
+    transform: translateX(-1em) rotate(45deg) scale(1.1);
+}
+
+button:hover span {
+    transform: translateX(-.5em);
+}
+
+button:active {
+    border: none;
+    transform: scale(0.95);
+}
+
+@keyframes fly-1 {
+    from {
+        transform: translateY(0.1em);
+    }
+
+    to {
+        transform: translateY(-0.1em);
     }
 }
 </style>
