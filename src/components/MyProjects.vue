@@ -9,7 +9,7 @@
 
             <div class="text-pjct">
                 <div class="container">
-                    <h4>Armorfly <img src="../assets/github.svg" @click="open('https://github.com/K1Melo')"/></h4>
+                    <h4>Quilombolas <img src="../assets/github.svg" @click="open('https://github.com/K1Melo/pjct-quilombolas')"/></h4>
                     <p>Not just a developer but a lover of software development, I started my career when I was just 14y and
                         currently I have built some of my own projects, mainly using Java and Kotlin with
                         Spring/Spring Boot framework for APIs and libGDX for game development</p>
@@ -25,7 +25,7 @@
         <div class="project" id="reverse">
             <div class="text-pjct">
                 <div class="container">
-                    <h4>Armorfly <img src="../assets/github.svg" @click="open('https://github.com/K1Melo')"/></h4>
+                    <h4>Space Invaders <img src="../assets/github.svg" @click="open('https://github.com/K1Melo/pjct-space-invaders')"/></h4>
                     <p>Not just a developer but a lover of software development, I started my career when I was just 14y and
                         currently I have built some of my own projects, mainly using Java and Kotlin with
                         Spring/Spring Boot framework for APIs and libGDX for game development</p>
@@ -48,7 +48,7 @@
 
             <div class="text-pjct">
                 <div class="container">
-                    <h4>Armorfly <img src="../assets/github.svg" @click="open('https://github.com/K1Melo')"/></h4>
+                    <h4>Ecommerce <img src="../assets/github.svg" @click="open('https://github.com/K1Melo/pjct-ecommerce-backend')"/></h4>
                     <p>Not just a developer but a lover of software development, I started my career when I was just 14y and
                         currently I have built some of my own projects, mainly using Java and Kotlin with
                         Spring/Spring Boot framework for APIs and libGDX for game development</p>
