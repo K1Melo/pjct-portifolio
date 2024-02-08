@@ -64,7 +64,8 @@
                         <p class="tec">Spring Boot</p>
                     </div>
                     <div class="technologies">
-                        <p class="tec" style="margin-left: 0;">Vue.js</p>
+                        <p class="tec" style="margin-left: 0;">PostgreSQL</p>
+                        <p class="tec">Vue.js</p>
                         <p class="tec">JavaScript</p>
                     </div>
                 </div>

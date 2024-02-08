@@ -38,11 +38,17 @@
                                     <p>Spring</p>
                                 </div>
                                 <div class="skill">
+                                    <p>Spring Boot</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="skill" style="margin-left: 0;">
                                     <p>Kotlin</p>
                                 </div>
                                 <div class="skill">
                                     <p>React</p>
                                 </div>
+
                             </div>
                         </div>
                     </div>
