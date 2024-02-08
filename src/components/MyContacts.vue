@@ -2,11 +2,15 @@
     <div class="contact-page">
         <div class="contact-box">
             <div class="left-ctt"></div>
-            <div class="right-ctt">
-                <h3 style="color: #7C61E8; font-weight: 100; text-align: center;"><span style="color: #FFFFFF; ">04</span>
-                    Contact me</h3>
-                <input type="text" class="field" placeholder="Your Name">
-                <textarea class="field area" placeholder="Message"></textarea>
+            <form action="https://api.staticforms.xyz/submit" method="POST" class="right-ctt">
+                <h3 style="color: #7C61E8; font-weight: 100; text-align: center;"><span
+                        style="color: #FFFFFF; ">04</span>Contact me</h3>
+
+                <input type="hidden" name="accessKey" value="ef0549e3-7f34-4939-ad12-9668f4e952df">
+                <input type="text" name="name" class="field" placeholder="Your Name" required>
+                <!-- <input type="email" class="field" placeholder="your@email.com" required> -->
+                <textarea class="field area" placeholder="Message" style="resize: none;" name="message" required></textarea>
+                <input type="hidden" name="redirectTo" value="https://pjct-portifolio.vercel.app/">
                 <button type="submit" class="btn">
                     <div class="svg-wrapper-1">
                         <div class="svg-wrapper">
@@ -20,7 +24,7 @@
                     </div>
                     <span>Enviar</span>
                 </button>
-            </div>
+            </form>
         </div>
     </div>
 </template>
@@ -96,6 +100,7 @@
     margin-bottom: 22px;
     transition: .3s;
     border-radius: 10px;
+    color: #fff;
 }
 
 .field:hover {
