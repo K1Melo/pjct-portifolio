@@ -4,9 +4,9 @@
             <div class="social-icons">
                 <a href=""><i class="fa-brands fa-instagram" id="instagram"></i></a>
                 <p>/</p>
-                <a href=""><i class="fa-brands fa-github" id="github"></i></a>
+                <a href="https://github.com/K1Melo" target="_blank"><i class="fa-brands fa-github" id="github"></i></a>
                 <p>/</p>
-                <a href=""><i class="fa-brands fa-linkedin" id="linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/kaua-melo/" target="_blank"><i class="fa-brands fa-linkedin" id="linkedin"></i></a>
             </div>
         </div>
         <div class="footer-bottom">

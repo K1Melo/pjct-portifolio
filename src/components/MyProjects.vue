@@ -4,20 +4,22 @@
     <div class="projects">
         <div class="project">
             <div class="img-pjct">
-                <img src="../assets/macBook.png" alt="">
+                <img src="../assets/pjct-quilombolas.png" alt="">
             </div>
 
             <div class="text-pjct">
                 <div class="container">
-                    <h4>Quilombolas <img src="../assets/github.svg" @click="open('https://github.com/K1Melo/pjct-quilombolas')"/></h4>
-                    <p>Not just a developer but a lover of software development, I started my career when I was just 14y and
-                        currently I have built some of my own projects, mainly using Java and Kotlin with
-                        Spring/Spring Boot framework for APIs and libGDX for game development</p>
+                    <h4>Quilombolas <img src="../assets/github.svg"
+                            @click="openTwo('https://pjct-quilombolas.vercel.app/', 'https://github.com/K1Melo/pjct-quilombolas')" /></h4>
+                    <p>
+                        I worked on most of the quilombolas project with the Vue.js framework for the frontend of the site,
+                        and for data persistence in the feedback form at the end of the site we used Node.js together with
+                        the express framework and the mongoose data modeling library</p>
 
                     <div class="technologies">
-                        <p class="tec" style="margin-left: 0;">Kotlin</p>
-                        <p class="tec">LibGDX</p>
-                        <p class="tec">Game Development</p>
+                        <p class="tec" style="margin-left: 0;">Vue.js</p>
+                        <p class="tec">Node.js</p>
+                        <p class="tec">JavaScript</p>
                     </div>
                 </div>
             </div>
@@ -25,7 +27,8 @@
         <div class="project" id="reverse">
             <div class="text-pjct">
                 <div class="container">
-                    <h4>Space Invaders <img src="../assets/github.svg" @click="open('https://github.com/K1Melo/pjct-space-invaders')"/></h4>
+                    <h4>Space Invaders <img src="../assets/github.svg"
+                            @click="open('https://github.com/K1Melo/pjct-space-invaders')" /></h4>
                     <p>Not just a developer but a lover of software development, I started my career when I was just 14y and
                         currently I have built some of my own projects, mainly using Java and Kotlin with
                         Spring/Spring Boot framework for APIs and libGDX for game development</p>
@@ -37,8 +40,8 @@
                     </div>
                 </div>
             </div>
-            <div class="img-pjct">
-                <img src="../assets/fone.png" alt="">
+            <div class="img-pjct" style="justify-content: center;">
+                <img src="../assets/pjct-space-invaders.png" alt="">
             </div>
         </div>
         <div class="project">
@@ -48,7 +51,8 @@
 
             <div class="text-pjct">
                 <div class="container">
-                    <h4>Ecommerce <img src="../assets/github.svg" @click="open('https://github.com/K1Melo/pjct-ecommerce-backend')"/></h4>
+                    <h4>CRUD API <img src="../assets/github.svg"
+                            @click="open('https://github.com/K1Melo/crud-api-spring-java')" /></h4>
                     <p>Not just a developer but a lover of software development, I started my career when I was just 14y and
                         currently I have built some of my own projects, mainly using Java and Kotlin with
                         Spring/Spring Boot framework for APIs and libGDX for game development</p>
@@ -74,7 +78,11 @@ export default {
     methods: {
         open(url) {
             window.open(url);
-        }
+        },
+        openTwo(url1, url2) {
+            window.open(url1);
+            window.open(url2);
+        },
     }
 }
 
@@ -139,10 +147,12 @@ export default {
                 cursor: pointer;
                 transition: all 0.2s linear;
             }
+
             img:hover {
                 opacity: 0.8;
                 transform: scale(1.1);
             }
+
             img:active {
                 opacity: 0.5;
                 transform: scale(0.9);
@@ -190,12 +200,13 @@ export default {
         user-select: none;
         display: flex;
         align-items: center;
-        justify-content: center;
-        width: 40%;
+        justify-content: end;
+        overflow: hidden;
+        width: 50%;
         margin: 5% 0;
 
         img {
-            width: 80%;
+            width: 90%;
         }
     }
 }
@@ -262,7 +273,7 @@ export default {
             margin: 10% 0;
 
             img {
-                width: 70%;
+                width: 100%;
             }
         }
     }
@@ -317,5 +328,4 @@ export default {
             }
         }
     }
-}
-</style>
+}</style>
