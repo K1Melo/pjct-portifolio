@@ -2,7 +2,7 @@
     <div class="studies">
         <div class="container-studies" id="first-container">
             <div class="img-studies">
-                <img src="../assets/img-abt.svg" alt="">
+                <img src="https://www.visaooeste.com.br/wp-content/uploads/2021/05/Etec-Carapicuiba.jpg" alt="">
             </div>
             <div class="left-size">
                 <div class="container">
@@ -49,7 +49,7 @@
                 </div>
             </div>
             <div class="img-studies">
-                <img src="../assets/img-abt.svg" alt="">
+                <img src="https://s2.glbimg.com/9aKAV75IlJjK1Ci_B9a8Lg9piEk=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/i/S/lkvtFoTqmhdnvmquutEQ/como-fazer-download-loop-hero-e-dicas-tela-inicial.jpg" alt="">
             </div>
         </div>
     </div>
@@ -72,10 +72,11 @@
     align-items: center;
     justify-content: center;
     width: 50%;
-    margin: 5% 0;
+    overflow: hidden;
 
     img {
-        width: 80%;
+        height: 100%;
+        /* width: 80%; */
     }
 }
 
@@ -97,7 +98,7 @@
 
     .img-studies {
         margin: 5% 0 10% 0;
-        width: 85%;
+        width: 90%;
 
         img {
             width: 100%;

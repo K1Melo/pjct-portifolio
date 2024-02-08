@@ -1,17 +1,21 @@
 <template>
     <header id="header">
-        <p id="abt" class="theme">About</p>
-        <p id="pjct" class="theme">Projects</p>
-        <p id="ctf" class="theme">Certificates</p>
-        <p id="std" class="theme">Studies</p>
-        <p id="ctt" class="theme">Contact</p>
+        <p id="abt" class="theme" @click="scrollTo(0.9)">About</p>
+        <p id="pjct" class="theme" @click="scrollTo(1.9)">Projects</p>
+        <p id="ctf" class="theme" @click="scrollTo(4.5)">Certificates</p>
+        <p id="std" class="theme" @click="scrollTo(5.5)">Studies</p>
+        <p id="ctt" class="theme" @click="scrollTo(7.15)">Contact</p>
     </header>
 </template>
 
 <script>
 
 export default {
-
+    methods: {
+        scrollTo(i) {
+            window.scroll({top: innerHeight * i, behavior: "smooth"})
+        }
+    }
 }
 
 </script>
@@ -37,6 +41,12 @@ header {
 
 .theme {
     color: #BDBDBD;
+    cursor: pointer;
+}
+
+.theme:hover {
+    transform: scale(1.05);
+    opacity: 0.8;
 }
 
 #abt,
@@ -44,7 +54,7 @@ header {
 #ctf,
 #std,
 #ctt {
-    transition: color 0.3s ease-in;
+    transition: all 0.3s ease-in-out;
 }
 
 @media only screen and (max-width: 650px) {

@@ -10,7 +10,8 @@
             <div class="text-pjct">
                 <div class="container">
                     <h4>Quilombolas <img src="../assets/github.svg"
-                            @click="openTwo('https://pjct-quilombolas.vercel.app/', 'https://github.com/K1Melo/pjct-quilombolas')" /></h4>
+                            @click="openTwo('https://pjct-quilombolas.vercel.app/', 'https://github.com/K1Melo/pjct-quilombolas')" />
+                    </h4>
                     <p>
                         I worked on most of the quilombolas project with the Vue.js framework for the frontend of the site,
                         and for data persistence in the feedback form at the end of the site we used Node.js together with
@@ -29,38 +30,42 @@
                 <div class="container">
                     <h4>Space Invaders <img src="../assets/github.svg"
                             @click="open('https://github.com/K1Melo/pjct-space-invaders')" /></h4>
-                    <p>Not just a developer but a lover of software development, I started my career when I was just 14y and
-                        currently I have built some of my own projects, mainly using Java and Kotlin with
-                        Spring/Spring Boot framework for APIs and libGDX for game development</p>
+                    <p>My first attempt at developing games in Java, as a challenge, I did it without any type of engine,
+                        this project helped me to better understand how graphics libraries work in addition to learning a
+                        little about the libGDX framework</p>
 
                     <div class="technologies">
-                        <p class="tec" style="margin-left: 0;">Kotlin</p>
+                        <p class="tec" style="margin-left: 0;">Java</p>
                         <p class="tec">LibGDX</p>
                         <p class="tec">Game Development</p>
                     </div>
                 </div>
             </div>
-            <div class="img-pjct" style="justify-content: center;">
+            <div class="img-pjct" id="space">
                 <img src="../assets/pjct-space-invaders.png" alt="">
             </div>
         </div>
         <div class="project">
             <div class="img-pjct">
-                <img src="../assets/macBook.png" alt="">
+                <img src="../assets/pjct-space-invaders.png" alt="">
             </div>
 
             <div class="text-pjct">
                 <div class="container">
                     <h4>CRUD API <img src="../assets/github.svg"
                             @click="open('https://github.com/K1Melo/crud-api-spring-java')" /></h4>
-                    <p>Not just a developer but a lover of software development, I started my career when I was just 14y and
-                        currently I have built some of my own projects, mainly using Java and Kotlin with
-                        Spring/Spring Boot framework for APIs and libGDX for game development</p>
+                    <p>The project that every back end developer should have, a Crud with data persistence, in this project
+                        I used my knowledge of Kotlin using spring/spring boot, and postgress as a database, it has a simple
+                        graphical interface interconnected with a front end</p>
 
                     <div class="technologies">
                         <p class="tec" style="margin-left: 0;">Kotlin</p>
-                        <p class="tec">LibGDX</p>
-                        <p class="tec">Game Development</p>
+                        <p class="tec">Spring</p>
+                        <p class="tec">Spring Boot</p>
+                    </div>
+                    <div class="technologies">
+                        <p class="tec" style="margin-left: 0;">Vue.js</p>
+                        <p class="tec">JavaScript</p>
                     </div>
                 </div>
             </div>
@@ -209,6 +214,10 @@ export default {
             width: 90%;
         }
     }
+
+    #space {
+        justify-content: start;
+    }
 }
 
 @media only screen and (max-width: 1160px) {
@@ -271,10 +280,16 @@ export default {
         .img-pjct {
             width: 100%;
             margin: 10% 0;
+            justify-content: center;
 
             img {
                 width: 100%;
             }
+        }
+
+
+        #space {
+            justify-content: center;
         }
     }
 }
@@ -328,4 +343,5 @@ export default {
             }
         }
     }
-}</style>
+}
+</style>
