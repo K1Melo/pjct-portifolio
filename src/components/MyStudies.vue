@@ -104,7 +104,7 @@
 
     .img-studies {
         margin: 5% 0 10% 0;
-        width: 90%;
+        width: 100%;
 
         img {
             width: 100%;

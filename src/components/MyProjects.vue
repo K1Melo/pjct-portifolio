@@ -3,19 +3,22 @@
     </h3>
     <div class="projects">
         <div class="project">
-            <div class="img-pjct">
+            <div class="img-pjct quilombolas">
+                <div class="open" @click="open('https://pjct-quilombolas.vercel.app/')">
+                    <i class="material-symbols-outlined">open_in_new</i>
+                </div>
                 <img src="../assets/pjct-quilombolas.png" alt="">
             </div>
 
             <div class="text-pjct">
                 <div class="container">
                     <h4>Quilombolas <img src="../assets/github.svg"
-                            @click="openTwo('https://pjct-quilombolas.vercel.app/', 'https://github.com/K1Melo/pjct-quilombolas')" />
+                            @click="open('https://github.com/K1Melo/pjct-quilombolas')" />
                     </h4>
                     <p>
                         I worked on most of the quilombolas project with the Vue.js framework for the frontend of the site,
                         and for data persistence in the feedback form at the end of the site we used Node.js together with
-                        the express framework and the mongoose data modeling library</p>
+                        the express framework and the mongoose data modeling library.</p>
 
                     <div class="technologies">
                         <p class="tec" style="margin-left: 0;">Vue.js</p>
@@ -32,7 +35,7 @@
                             @click="open('https://github.com/K1Melo/pjct-space-invaders')" /></h4>
                     <p>My first attempt at developing games in Java, as a challenge, I did it without any type of engine,
                         this project helped me to better understand how graphics libraries work in addition to learning a
-                        little about the libGDX framework</p>
+                        little about the libGDX framework.</p>
 
                     <div class="technologies">
                         <p class="tec" style="margin-left: 0;">Java</p>
@@ -56,7 +59,7 @@
                             @click="open('https://github.com/K1Melo/crud-api-spring-java')" /></h4>
                     <p>The project that every back end developer should have, a Crud with data persistence, in this project
                         I used my knowledge of Kotlin using spring/spring boot, and postgress as a database, it has a simple
-                        graphical interface interconnected with a front end</p>
+                        graphical interface interconnected with a front end.</p>
 
                     <div class="technologies">
                         <p class="tec" style="margin-left: 0;">Kotlin</p>
@@ -84,11 +87,7 @@ export default {
     methods: {
         open(url) {
             window.open(url);
-        },
-        openTwo(url1, url2) {
-            window.open(url1);
-            window.open(url2);
-        },
+        }
     }
 }
 
@@ -203,6 +202,7 @@ export default {
     }
 
     .img-pjct {
+        position: relative;
         user-select: none;
         display: flex;
         align-items: center;
@@ -212,14 +212,40 @@ export default {
         margin: 5% 0;
 
         img {
+            transition: all 0.2s linear;
             width: 90%;
         }
+
+        img:hover {
+            border-radius: 10px;
+        }
+
+        .open {
+            transition: all 0.2s linear;
+
+            width: 90%;
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #2b2b2b6f;
+            color: #fff;
+            height: 100%;
+        }
+
+        .open:hover {
+            cursor: pointer;
+            border-radius: 5px;
+            background-color: #000000ac;
+        }
     }
+
 
     #space {
         justify-content: start;
     }
 }
+
 
 @media only screen and (max-width: 1160px) {
     .text-pjct {
@@ -284,6 +310,10 @@ export default {
             justify-content: center;
 
             img {
+                width: 100%;
+            }
+
+            .open {
                 width: 100%;
             }
         }
