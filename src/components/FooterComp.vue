@@ -10,7 +10,7 @@
             </div>
         </div>
         <div class="footer-bottom">
-            <p>Copyright &copy; 2024; Designed by <span class="designer">Kauã Fernandes</span></p>
+            <p>Copyright &copy; 2024; Designed & Built by <span class="designer">Kauã Fernandes</span></p>
         </div>
     </footer>
 </template>
