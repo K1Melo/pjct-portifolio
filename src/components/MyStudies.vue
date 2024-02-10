@@ -55,7 +55,7 @@
                 </div>
             </div>
             <div class="img-studies">
-                <img src="https://s2.glbimg.com/9aKAV75IlJjK1Ci_B9a8Lg9piEk=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/i/S/lkvtFoTqmhdnvmquutEQ/como-fazer-download-loop-hero-e-dicas-tela-inicial.jpg" alt="">
+                <img src="../assets/logoGame.jpeg" alt="" class="game">
             </div>
         </div>
     </div>
@@ -82,8 +82,12 @@
 
     img {
         height: 100%;
-        /* width: 80%; */
     }
+
+    .game {
+        width: 100%;
+    }
+    
 }
 
 @media only screen and (max-width: 912px) {
