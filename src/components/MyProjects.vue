@@ -68,8 +68,8 @@
                     </div>
                     <div class="technologies">
                         <p class="tec" style="margin-left: 0;">PostgreSQL</p>
-                        <p class="tec">Vue.js</p>
-                        <p class="tec">JavaScript</p>
+                        <p class="tec" style="margin-left: 0;">Maven</p>
+                        <p class="tec" style="margin-left: 0;">Docker</p>
                     </div>
                 </div>
             </div>
