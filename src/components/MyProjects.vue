@@ -56,7 +56,7 @@
             <div class="text-pjct">
                 <div class="container">
                     <h4>CRUD API <img src="../assets/github.svg"
-                            @click="open('https://github.com/K1Melo/crud-api-spring-java')" /></h4>
+                            @click="open('https://github.com/K1Melo/pjct-crud-api')" /></h4>
                     <p>The project that every back end developer should have, a Crud with data persistence, in this project
                         I used my knowledge of Kotlin using spring/spring boot, and postgress as a database, it has a simple
                         graphical interface interconnected with a front end.</p>
