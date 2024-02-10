@@ -3,27 +3,27 @@
     </h3>
     <div class="projects">
         <div class="project">
-            <div class="img-pjct quilombolas">
-                <div class="open" @click="open('https://pjct-quilombolas.vercel.app/')">
-                    <i class="material-symbols-outlined">open_in_new</i>
-                </div>
-                <img src="../assets/pjct-quilombolas.png" alt="">
+            <div class="img-pjct">
+                <img src="../assets/pjct-space-invaders.png" alt="">
             </div>
 
             <div class="text-pjct">
                 <div class="container">
-                    <h4>Quilombolas <img src="../assets/github.svg"
-                            @click="open('https://github.com/K1Melo/pjct-quilombolas')" />
+                    <h4>CRUD API <img src="../assets/github.svg" @click="open('https://github.com/K1Melo/pjct-crud-api')" />
                     </h4>
-                    <p>
-                        I worked on most of the quilombolas project with the Vue.js framework for the frontend of the site,
-                        and for data persistence in the feedback form at the end of the site we used Node.js together with
-                        the express framework and the mongoose data modeling library.</p>
+                    <p>The project that every back end developer should have, a Crud with data persistence, in this project
+                        I used my knowledge of Kotlin using spring/spring boot, and postgress as a database, it has a simple
+                        graphical interface interconnected with a front end.</p>
 
                     <div class="technologies">
-                        <p class="tec" style="margin-left: 0;">Vue.js</p>
-                        <p class="tec">Node.js</p>
-                        <p class="tec">JavaScript</p>
+                        <p class="tec" style="margin-left: 0;">Kotlin</p>
+                        <p class="tec">Spring</p>
+                        <p class="tec">Spring Boot</p>
+                    </div>
+                    <div class="technologies">
+                        <p class="tec" style="margin-left: 0;">PostgreSQL</p>
+                        <p class="tec" style="margin-left: 0;">Maven</p>
+                        <p class="tec" style="margin-left: 0;">Docker</p>
                     </div>
                 </div>
             </div>
@@ -49,27 +49,27 @@
             </div>
         </div>
         <div class="project">
-            <div class="img-pjct">
-                <img src="../assets/pjct-space-invaders.png" alt="">
+            <div class="img-pjct quilombolas">
+                <div class="open" @click="open('https://pjct-quilombolas.vercel.app/')">
+                    <i class="material-symbols-outlined">open_in_new</i>
+                </div>
+                <img src="../assets/pjct-quilombolas.png" alt="">
             </div>
 
             <div class="text-pjct">
                 <div class="container">
-                    <h4>CRUD API <img src="../assets/github.svg"
-                            @click="open('https://github.com/K1Melo/pjct-crud-api')" /></h4>
-                    <p>The project that every back end developer should have, a Crud with data persistence, in this project
-                        I used my knowledge of Kotlin using spring/spring boot, and postgress as a database, it has a simple
-                        graphical interface interconnected with a front end.</p>
+                    <h4>Quilombolas <img src="../assets/github.svg"
+                            @click="open('https://github.com/K1Melo/pjct-quilombolas')" />
+                    </h4>
+                    <p>
+                        I worked on most of the quilombolas project with the Vue.js framework for the frontend of the site,
+                        and for data persistence in the feedback form at the end of the site we used Node.js together with
+                        the express framework and the mongoose data modeling library.</p>
 
                     <div class="technologies">
-                        <p class="tec" style="margin-left: 0;">Kotlin</p>
-                        <p class="tec">Spring</p>
-                        <p class="tec">Spring Boot</p>
-                    </div>
-                    <div class="technologies">
-                        <p class="tec" style="margin-left: 0;">PostgreSQL</p>
-                        <p class="tec" style="margin-left: 0;">Maven</p>
-                        <p class="tec" style="margin-left: 0;">Docker</p>
+                        <p class="tec" style="margin-left: 0;">Vue.js</p>
+                        <p class="tec">Node.js</p>
+                        <p class="tec">JavaScript</p>
                     </div>
                 </div>
             </div>
