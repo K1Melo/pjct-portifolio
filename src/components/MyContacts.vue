@@ -4,7 +4,7 @@
             <div class="left-ctt"></div>
             <form action="https://api.staticforms.xyz/submit" method="POST" class="right-ctt">
                 <h3 style="color: #7C61E8; font-weight: 100; text-align: center;"><span
-                        style="color: #FFFFFF; ">04</span>Contact me</h3>
+                        style="color: #FFFFFF; ">05</span> Contact me</h3>
 
                 <input type="hidden" name="accessKey" value="ef0549e3-7f34-4939-ad12-9668f4e952df">
                 <input type="text" name="name" class="field" placeholder="Your Name" required>

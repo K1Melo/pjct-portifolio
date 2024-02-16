@@ -43,7 +43,10 @@
                             </div>
                             <div class="row">
                                 <div class="skill" style="margin-left: 0;">
-                                    <p>Kotlin</p>
+                                    <p>Godot</p>
+                                </div>
+                                <div class="skill" style="margin-left: 0;">
+                                    <p>GDscript</p>
                                 </div>
                                 <div class="skill">
                                     <p>React</p>
