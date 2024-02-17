@@ -46,10 +46,10 @@
                                     <p>Godot</p>
                                 </div>
                                 <div class="skill" style="margin-left: 0;">
-                                    <p>GDscript</p>
+                                    <p>JavaScript</p>
                                 </div>
                                 <div class="skill">
-                                    <p>React</p>
+                                    <p>HTML / CSS</p>
                                 </div>
 
                             </div>

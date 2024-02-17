@@ -4,7 +4,7 @@
     <div class="projects">
         <div class="project">
             <div class="img-pjct">
-                <img src="../assets/pjct-space-invaders.png" alt="">
+                <img src="../assets/pjct-crud.png" alt="">
             </div>
 
             <div class="text-pjct">
@@ -15,12 +15,12 @@
                         I used my knowledge of Kotlin using spring/spring boot, and postgress as a database.</p>
 
                     <div class="technologies">
-                        <p class="tec" style="margin-left: 0;">Kotlin</p>
+                        <p class="tec" style="margin-left: 0;">Java</p>
                         <p class="tec">Spring</p>
                         <p class="tec">Spring Boot</p>
                     </div>
                     <div class="technologies">
-                        <p class="tec" style="margin-left: 0;">PostgreSQL</p>
+                        <p class="tec" style="margin-left: 0;">H2Database</p>
                         <p class="tec" style="margin-left: 0;">Maven</p>
                         <p class="tec" style="margin-left: 0;">Docker</p>
                     </div>

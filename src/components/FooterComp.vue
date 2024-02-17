@@ -2,7 +2,7 @@
     <footer>
         <div class="footer-medias">
             <div class="social-icons">
-                <a href=""><i class="fa-brands fa-instagram" id="instagram"></i></a>
+                <a href="https://www.instagram.com/k1fernandes_/"><i class="fa-brands fa-instagram" id="instagram"></i></a>
                 <p>/</p>
                 <a href="https://github.com/K1Melo" target="_blank"><i class="fa-brands fa-github" id="github"></i></a>
                 <p>/</p>
