@@ -45,7 +45,7 @@
                                 <div class="skill" style="margin-left: 0;">
                                     <p>Godot</p>
                                 </div>
-                                <div class="skill" style="margin-left: 0;">
+                                <div class="skill">
                                     <p>JavaScript</p>
                                 </div>
                                 <div class="skill">
