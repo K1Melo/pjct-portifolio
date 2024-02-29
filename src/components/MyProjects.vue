@@ -20,7 +20,7 @@
                         <p class="tec">Spring Boot</p>
                     </div>
                     <div class="technologies">
-                        <p class="tec" style="margin-left: 0;">H2Database</p>
+                        <p class="tec" style="margin-left: 0;">PostgreSQL</p>
                         <p class="tec" style="margin-left: 0;">Maven</p>
                         <p class="tec" style="margin-left: 0;">Docker</p>
                     </div>

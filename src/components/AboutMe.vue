@@ -35,13 +35,16 @@
                         </div>
                         <div class="row">
                             <div class="skill" style="margin-left: 0;">
+                                <p>PostgreSQL</p>
+                            </div>
+                            <div class="skill">
                                 <p>Vue.js</p>
                             </div>
                             <div class="skill">
                                 <p>Gradle</p>
                             </div>
                             <div class="skill">
-                                <p>Game Development</p>
+                                <p>Godot</p>
                             </div>
                         </div>
                     </div>
