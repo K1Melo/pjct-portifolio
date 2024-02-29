@@ -15,7 +15,7 @@
                         <p>GitHub <i class="material-symbols-outlined">open_in_new</i></p>
                     </div>
                     <div class="sm">
-                        <p>CV <i class="material-symbols-outlined">download</i></p>
+                        <a :href="dowload" download="CVKauaMelo">CV <i class="material-symbols-outlined">download</i></a>
                     </div>
                 </div>
             </div>
@@ -29,6 +29,11 @@
 <script>
 
 export default {
+    data() {
+        return {
+            dowload: 'kauaCV.pdf',
+        }
+    },
     methods: {
         open(url) {
             window.open(url);
@@ -103,12 +108,14 @@ export default {
                 margin: 10px;
                 padding: 5px 15px;
 
-                p {
+                p, a {
                     width: fit-content;
                     display: flex;
                     align-items: center;
                     justify-content: center;
                     font-size: 18px;
+                    color: #fff;
+                    text-decoration: none;
 
                     .material-symbols-outlined {
                         margin: 0 0 0 5px;
