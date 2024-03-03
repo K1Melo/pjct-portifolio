@@ -26,7 +26,7 @@
                         <div class="text">
                             <h4>Project I'm currently <br>working on</h4>
                             <p>I'm currently working on a virtual store where the product will be a game also produced by me
-                                and my team, if you want to see more about it, take a look at our <a style="font-weight: 500; font-style: italic; color: #FFFFFF;" href="https://github.com/K1Melo/pjct-towerfall-game" target="_blank">github repository</a>
+                                and my team, if you want to see more about it, take a look at our <a style="font-weight: 500; font-style: italic; color: #FFFFFF;" href="https://github.com/K1Melo/pjct-kingdom-algorithm-game" target="_blank">github repository</a>
                             </p>
                         </div>
                         <div class="skills" style="margin-top: 5%;">
