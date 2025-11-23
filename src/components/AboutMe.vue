@@ -10,13 +10,13 @@
                                 <p>Java</p>
                             </div>
                             <div class="skill">
+                                <p>Kotlin</p>
+                            </div>
+                            <div class="skill">
                                 <p>Spring</p>
                             </div>
                             <div class="skill">
                                 <p>Spring Boot</p>
-                            </div>
-                            <div class="skill">
-                                <p>Kotlin</p>
                             </div>
                         </div>
                         <div class="row">
@@ -27,35 +27,30 @@
                                 <p>GitHub</p>
                             </div>
                             <div class="skill">
-                                <p>MySQL</p>
+                                <p>C++</p>
                             </div>
                             <div class="skill">
-                                <p>JavaScript</p>
+                                <p>PostgreSQL</p>
                             </div>
                         </div>
                         <div class="row">
                             <div class="skill" style="margin-left: 0;">
-                                <p>PostgreSQL</p>
+                                <p>Python</p>
                             </div>
                             <div class="skill">
-                                <p>Vue.js</p>
+                                <p>Docker</p>
                             </div>
                             <div class="skill">
                                 <p>Gradle</p>
                             </div>
                             <div class="skill">
-                                <p>Godot</p>
+                                <p>Maven</p>
                             </div>
                         </div>
                     </div>
                     <div class="text">
-                        <h4>The developer<br>everyone needs</h4>
-                        <p>Not just a developer but a lover of software development, I started my career when I was just 14y
-                            and
-                            currently I have built some of my own projects, mainly using <strong>Java</strong> and
-                            <strong>Kotlin</strong> with
-                            <strong>Spring/Spring Boot</strong> framework for APIs and <strong>libGDX</strong> for game
-                            development
+                        <h4>Growing one <br>project at a time</h4>
+                        <p>I’m Kauã Melo, a backend developer specializing in Java, driven by high-performance engineering — a medalist in national scientific competitions, AI olympiad finalist, and creator of Ambar, a sustainable programming language.
                         </p>
                     </div>
                 </div>
@@ -69,6 +64,7 @@
 
 <style>
 .about-me {
+
     padding: 5% 0;
     display: flex;
 }

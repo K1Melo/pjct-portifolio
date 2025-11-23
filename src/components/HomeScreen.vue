@@ -15,7 +15,7 @@
                         <p>GitHub <i class="material-symbols-outlined">open_in_new</i></p>
                     </div>
                     <div class="sm">
-                        <a :href="dowload" download="CVKauaMelo">CV <i class="material-symbols-outlined">download</i></a>
+                        <a href="/kauaCV.pdf" download="CV-KauaMelo">Curriculum <i class="material-symbols-outlined">download</i></a>
                     </div>
                 </div>
             </div>
@@ -29,11 +29,6 @@
 <script>
 
 export default {
-    data() {
-        return {
-            dowload: 'kauaCV.pdf',
-        }
-    },
     methods: {
         open(url) {
             window.open(url);

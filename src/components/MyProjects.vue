@@ -30,44 +30,38 @@
         <div class="project" id="reverse">
             <div class="text-pjct">
                 <div class="container">
-                    <h4>Space Invaders <img src="../assets/github.svg"
-                            @click="open('https://github.com/K1Melo/pjct-space-invaders')" /></h4>
-                    <p>My first attempt at developing games in Java, as a challenge, I did it without any type of engine,
-                        this project helped me to better understand how graphics libraries work in addition to learning a
-                        little about the libGDX framework.</p>
+                    <h4>Compiler - AmbarC<img src="../assets/github.svg"
+                            @click="open('https://github.com/AmbarProject/ambarc_llvm')" /></h4>
+                    <p>I developed an energy-efficient compiler using C++ and LLVM. Its smart optimizations reduce power consumption while maintaining high performance. In benchmarks, Ambar outperformed C and was far more efficient than Python. I also presented this project at <span @click="open('https://feteps.cps.sp.gov.br/projetos/ambar-programacao-sustentavel/')"> FETEPS</span>, showcasing its potential for sustainable high-performance computing.</p>
 
                     <div class="technologies">
-                        <p class="tec" style="margin-left: 0;">Java</p>
-                        <p class="tec">LibGDX</p>
-                        <p class="tec">Game Development</p>
+                        <p class="tec" style="margin-left: 0;">C++</p>
+                        <p class="tec">LLVM</p>
+                        <p class="tec">Docker</p>
                     </div>
                 </div>
             </div>
             <div class="img-pjct" id="space">
-                <img src="../assets/pjct-space-invaders.png" alt="">
+                <img src="../assets/pjct-ambar-llvm.png" alt="">
             </div>
         </div>
         <div class="project">
-            <div class="img-pjct quilombolas">
-                <div class="open" @click="open('https://pjct-quilombolas.vercel.app/')">
-                    <i class="material-symbols-outlined">open_in_new</i>
-                </div>
-                <img src="../assets/pjct-quilombolas.png" alt="">
+            <div class="img-pjct">
+                <img src="../assets/pjct-febrace.png" alt="">
             </div>
 
             <div class="text-pjct">
                 <div class="container">
-                    <h4>Quilombolas <img src="../assets/github.svg"
-                            @click="open('https://github.com/K1Melo/pjct-quilombolas')" />
+                    <h4>Protein Analyser <span style="cursor: pointer; display: flex; align-items: center; " 
+                        @click="open('https://virtual.febrace.org.br/2025/EXA/7417/')"><i
+                            class="material-symbols-outlined">open_in_new</i></span>
                     </h4>
                     <p>
-                        I worked on most of the quilombolas project with the Vue.js framework for the frontend of the site,
-                        and for data persistence in the feedback form at the end of the site we used Node.js together with
-                        the express framework and the mongoose data modeling library.</p>
+                        I developed an in-silico Python pipeline using bioinformatics and machine learning to classify dermonecrotic spider toxins (FLDs). Combining protein descriptors, PCA and clustering, the system revealed toxicity patterns while reducing animal testing. The project highlighted the impact of computational toxicology and was selected for presentation at FEBRACE.</p>
 
                     <div class="technologies">
-                        <p class="tec" style="margin-left: 0;">Vue.js</p>
-                        <p class="tec">Node.js</p>
+                        <p class="tec" style="margin-left: 0;">Python</p>
+                        <p class="tec">Scikit-learn</p>
                         <p class="tec">JavaScript</p>
                     </div>
                 </div>
@@ -123,6 +117,10 @@ export default {
 
 }
 
+.material-symbols-outlined {
+    margin: 0 0 0 20px;
+    font-size: 30px;
+}
 
 .project {
     display: flex;
@@ -141,6 +139,7 @@ export default {
         h4 {
             display: flex;
             align-items: center;
+            
             font-size: 50px;
             font-weight: 300;
             margin: 0 0 5% 0;
@@ -209,6 +208,8 @@ export default {
         overflow: hidden;
         width: 50%;
         margin: 5% 0;
+        border-radius: 5px;
+
 
         img {
             transition: all 0.2s linear;
@@ -216,7 +217,7 @@ export default {
         }
 
         img:hover {
-            border-radius: 10px;
+            border-radius: 20px;
         }
 
         .open {
